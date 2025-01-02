@@ -50,6 +50,7 @@ const Info = () => {
                 <Flex justifyContent="flex-end">
                     <FormLabel htmlFor="language_switch" mb="0" mr={2}>
                         {isEnglish ? "EN" : "KO"}
+
                     </FormLabel>
                     <Switch
                         id="language_switch"

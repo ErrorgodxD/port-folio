@@ -1,5 +1,6 @@
 import {Box, useColorMode, useColorModeValue} from "@chakra-ui/react";
 import {motion} from "framer-motion";
+// import {useSafeArea} from "react-native-safe-area-context";
 
 
 const AnimationToggle = () => {
@@ -7,6 +8,7 @@ const AnimationToggle = () => {
     const isDark = useColorModeValue(false, true);
 
     return(
+
 
     <Box
         as={"button"}

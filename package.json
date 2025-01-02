@@ -24,7 +24,9 @@
     "recoil": "^0.7.7",
     "redux": "^5.0.1",
     "scenejs": "^1.10.3",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "@react-buddy/ide-toolbox": "^2.4.0",
+    "@react-buddy/palette-chakra-ui": "^2.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
