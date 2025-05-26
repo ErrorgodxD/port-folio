@@ -31,7 +31,7 @@ const Info = () => {
         ko:[
         { title: "이름", content: "최정민", icon: <FaUser />, isPrivate: false },
         { title: "직무", content: "프론트앤드 개발자", icon: <FaIdCard />, isPrivate: false },
-        { title: "이메일", content: "bigdragon00@naver.com", icon: <FaEnvelope />, isPrivate: true },
+        { title: "이메일", content: "error10904@gmail.com", icon: <FaEnvelope />, isPrivate: true },
         { title: "학교", content: "건양대학교", icon: <FaUniversity />, isPrivate: false },
         { title: "전공", content: "사이버보안공학", icon: <FaGraduationCap />, isPrivate: false },
         { title: "주소지", content: "대전광역시", icon: <FaMapMarkerAlt />, isPrivate: false },
