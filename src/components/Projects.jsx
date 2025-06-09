@@ -23,8 +23,9 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {FaReact, FaNodeJs, FaGithub,FaGlobe,FaAws } from "react-icons/fa";
+import {FaReact, FaNodeJs, FaGithub, FaAws, FaGlobe} from "react-icons/fa";
 import {SiMysql, SiExpress, SiNextdotjs, SiRedux,SiVite, SiTailwindcss} from "react-icons/si";
+import { HiGlobe } from "react-icons/hi";
 import { TbBrandThreejs } from "react-icons/tb";
 import React from "react";
 
@@ -180,13 +181,22 @@ const Projects = () => {
                         colorScheme={colorMode === 'dark' ? 'whiteAlpha' : 'gray'}
                     />
                 </Link>
+              ),
+            site:(
+              <Link href="https://photo-dump-beta.vercel.app" isExternal>
+                    <IconButton
+                        aria-label="Website"
+                        icon={<HiGlobe />}
+                        variant="ghost"
+                        colorScheme={colorMode === 'dark' ? 'whiteAlpha' : 'gray'}
+                    />
+              </Link>
             ),
-            site: "",
             features: [
                 "사진 업로드",
-                "로그인 기능",
+                "로그인, 회원가입 기능",
                 "bycrypt 암호화 알고리즘 적용",
-                "AWS S3 사용",
+                "AWS S3, RDS 연동",
                 "ThreeJS를 이용한 3D 모델 구현",
             ]
         },
