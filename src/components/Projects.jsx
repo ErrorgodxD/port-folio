@@ -182,16 +182,7 @@ const Projects = () => {
                     />
                 </Link>
               ),
-            site:(
-              <Link href="https://photo-dump-beta.vercel.app" isExternal>
-                    <IconButton
-                        aria-label="Website"
-                        icon={<HiGlobe />}
-                        variant="ghost"
-                        colorScheme={colorMode === 'dark' ? 'whiteAlpha' : 'gray'}
-                    />
-              </Link>
-            ),
+            site:"https://photo-dump-beta.vercel.app/",
             features: [
                 "사진 업로드",
                 "로그인, 회원가입 기능",
