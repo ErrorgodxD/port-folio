@@ -102,7 +102,7 @@ const Projects = () => {
                     />
                 </Link>
             ),
-            site: "cardano.kr",
+            site: "",
             features: [
                 "블록체인 정보 제공",
                 "실시간 가격 정보",
@@ -391,7 +391,7 @@ const Projects = () => {
                             {selectedModal?.site && (
                                 <Button
                                     as={Link}
-                                    href={`https://${selectedModal.site}`}
+                                    href={`${selectedModal.site}`}
                                     isExternal
                                     colorScheme="blue"
                                     leftIcon={<FaGlobe />}
